@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #141414;
+}
+
+/*-----------------------------CABEZERA------------------------------*/
+header{padding: 30px 0;}
+
+#Logo{width: 150px;}
+
+.Cabezera{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Botones {
+    color: #AAA;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#Botones:hover, .activo{color: #FFF;}
+
+
+/*-----------------------------CONTENEDOR PRINCIPAL------------------------------*/
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: url(Imagenes/Endgame.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+    width: 99.8%;
+}
+
+.contenedor {margin: 0 auto;margin-bottom: 6.25em;}
+
+.titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    margin-left: 40px;
+}
+
+.descripcion {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 40px;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.button {
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 1em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .8s ease all;
+    font-size: 1em;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.button:hover {background: #fff; color: #000;}
+
+
+/*-----------------------------CONTENEDOR SECUNDARIO------------------------------*/
+.PeliculasSecundarias{margin-bottom: 70px;}
+
+h3{font-size: 24px; color: #FFF; margin-left: 4%;}
+
+.ContenedorPrincipal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}   
+
+.ContenedorImatges{
+    width: 92%;
+    padding: 20px 0px;
+    overflow: hidden;
+    margin-left: 4%;
+}
+
+.imatges{display: flex; flex-wrap: nowrap;}
+
+.peliculas{width: 20%; box-shadow: 5px 5px 10px #141414;}
+
+img{width: 100%; vertical-align: top;}
